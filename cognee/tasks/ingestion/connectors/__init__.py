@@ -8,6 +8,7 @@ Other connectors remain available in cognee-community.
 
 from .apollo import apollo_source, build_apollo_service
 from .asana import asana_source, build_asana_service
+from .fred import FredClient, fred_source
 from .gmail import build_gmail_service_from_access_token, gmail_source
 from .google_calendar import build_calendar_service_from_access_token, google_calendar_source
 from .google_drive import build_drive_service_from_access_token, google_drive_source
@@ -25,6 +26,7 @@ __all__ = [
     "build_drive_service_from_access_token",
     "build_gmail_service_from_access_token",
     "build_linear_service",
+    "fred_source",
     "gmail_source",
     "google_calendar_source",
     "google_drive_source",
